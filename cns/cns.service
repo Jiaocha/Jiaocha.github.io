@@ -1,0 +1,16 @@
+[Unit]
+Description=cns
+Documentation=https://github.com/mmmdbybyd/CNS/
+ 
+[Service]
+Type=simple
+PIDFile=[cns_install_dir]/run.pid
+ExecStart=[cns_install_dir]/cns.init systemdStart
+ExecReload=[cns_install_dir]/cns.init systemdRestart
+ExecStop=[cns_install_dir]/cns.init stop
+PrivateTmp=true
+KillMode=control-group
+
+[Install]
+WantedBy=multi-user.target
+
