@@ -16,7 +16,7 @@ Delete() {
 #Print error message and exit.
 Error() {
 	echo $echo_e_arg "\033[41;37m$1\033[0m"
-	echo -n "remove cns?[y]: "
+	echo -n "删除 cns?[y]: "
 	read remove
 	echo "$remove"|grep -qi 'n' || Delete
 	exit 1
