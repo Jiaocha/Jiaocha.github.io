@@ -122,7 +122,7 @@ Install() {
 	Delete >/dev/null 2>&1
 	InstallInit
 	InstallFiles
-	"${cns_install_dir}/cns.init" start|grep -q FAILED && Error "cns install failed."
+	"${cns_install_dir}/cns.init" start|grep -q FAILED && Error "cns 安装失败."
 	type systemctl && [ -z "$(systemctl --failed|grep -q 'Host is down')" ] && systemctl restart cns
 	echo $echo_e_arg \
 		"\033[44;37mcns install success.\033[0;34m
