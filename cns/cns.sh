@@ -69,10 +69,10 @@ InstallFiles() {
 	if echo "$machine" | grep -q '^mips'; then
 		cat /proc/cpuinfo | grep -qiE 'fpu|neon|vfp|softfp|asimd' || softfloat='_softfloat'
 	fi
-	mkdir -p "$cns_install_dir" || Error "Create cns install directory failed."
+	mkdir -p "$cns_install_dir" || Error "创建cns安装目录失败."
 	cd "$cns_install_dir" || exit 1
-	$download_tool_cmd cns https://jiaocha.github.io/cns/${cns_UPX}/linux_${machine}${softfloat} || Error "cns download failed."
-	$download_tool_cmd cns.init https://jiaocha.github.io/cns/cns.init || Error "cns.init download failed."
+	$download_tool_cmd cns https://jiaocha.github.io/cns/${cns_UPX}/linux_${machine}${softfloat} || Error "cns 下载失败."
+	$download_tool_cmd cns.init https://jiaocha.github.io/cns/cns.init || Error "cns.init 下载失败."
 	[ -f '/etc/rc.common' ] && rcCommon='/etc/rc.common'
 	sed -i "s~#!/bin/sh~#!$SHELL $rcCommon~" cns.init
 	sed -i "s~\[cns_start_cmd\]~$cns_start_cmd~g" cns.init
@@ -108,7 +108,7 @@ InstallFiles() {
 
 #install initialization
 InstallInit() {
-	echo -n "make a update?[n]: "
+	echo -n "进行更新?[n]: "
 	read update
 	PM=`type apt-get || type yum`
 	PM=`echo "$PM" | grep -o '/.*'`
