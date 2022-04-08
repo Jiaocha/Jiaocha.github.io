@@ -25,20 +25,20 @@ Error() {
 #Make cns start cmd
 Config() {
 	[ -n "$cns_install_dir" ] && return  #Variables come from the environment
-	echo -n "Please input cns server port(If not need, please skip): "
+	echo -n "输入cns服务器端口（如果不需要，请跳过）: "
 	read cns_port
-	echo -n "Please input cns encrypt password(If not need, please skip): "
+	echo -n "输入cns加密密码（如果不需要，请跳过）: "
 	read cns_encrypt_password
-	echo -n "Please input cns udp flag(Defaule is 'httpUDP'): "
+	echo -n "输入cns udp标志（默认为 "httpUDP"）: "
 	read cns_udp_flag
-	echo -n "Please input cns proxy key(Default is 'Meng'): "
+	echo -n "输入cns代理密钥（默认为 "Meng"）: "
 	read cns_proxy_key
-	echo -n "Please input tls server port(If not need, please skip): "
+	echo -n "输入tls服务器端口（如果不需要，请跳过）): "
 	read cns_tls_port
-	echo -n "Please input cns install directory(difault is /usr/local/cns): "
+	echo -n "输入cns安装目录（默认为/usr/local/cns）: "
 	read cns_install_dir
 	echo "${cns_install_dir:=/usr/local/cns}"|grep -q '^/' || cns_install_dir="$PWD/$cns_install_dir"
-	echo -n "Install UPX compress version?[n]: "
+	echo -n "安装UPX压缩版本？[n]: "
 	read cns_UPX
 	echo "$cns_UPX"|grep -qi '^y' && cns_UPX="upx" || cns_UPX=""
 }
@@ -140,8 +140,8 @@ Uninstall() {
 		read cns_install_dir
 	fi
 	Delete >/dev/null 2>&1 && \
-		echo $echo_e_arg "\n\033[44;37mcns uninstall success.\033[0m" || \
-		echo $echo_e_arg "\n\033[41;37mcns uninstall failed.\033[0m"
+		echo $echo_e_arg "\n\033[44;37mcns 卸载成功.\033[0m" || \
+		echo $echo_e_arg "\n\033[41;37mcns 卸载失败.\033[0m"
 }
 
 #script initialization

@@ -1,6 +1,6 @@
 [Unit]
 Description=cns
-Documentation=https://github.com/mmmdbybyd/CNS/
+Documentation=https://proxy.ibm-vps.workers.dev/https://github.com/mmmdbybyd/CNS/
  
 [Service]
 Type=simple
