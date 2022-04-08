@@ -136,7 +136,7 @@ Install() {
 
 Uninstall() {
 	if [ -z "$cns_install_dir" ]; then
-		echo -n "Please input cns install directory(default is /usr/local/cns): "
+		echo -n "输入cns安装目录（默认为/usr/local/cns）: "
 		read cns_install_dir
 	fi
 	Delete >/dev/null 2>&1 && \
