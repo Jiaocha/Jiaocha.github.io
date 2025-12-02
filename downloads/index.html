@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>资源下载 | 我的技术博客</title><meta name="author" content="Jiaocha"><meta name="copyright" content="Jiaocha"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="提供各种资源文件下载，包括文档、工具和示例代码等。">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>资源下载 | 博客</title><meta name="author" content="Jiaocha"><meta name="copyright" content="Jiaocha"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="提供各种资源文件下载，包括文档、工具和示例代码等。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="资源下载">
 <meta property="og:url" content="https://jiaocha.github.io/downloads/index.html">
-<meta property="og:site_name" content="我的技术博客">
+<meta property="og:site_name" content="博客">
 <meta property="og:description" content="提供各种资源文件下载，包括文档、工具和示例代码等。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://jiaocha.github.io/img/butterfly-icon.png">
 <meta property="article:published_time" content="2023-07-15T02:30:00.000Z">
-<meta property="article:modified_time" content="2025-12-02T11:53:40.122Z">
+<meta property="article:modified_time" content="2025-12-02T13:14:43.136Z">
 <meta property="article:author" content="Jiaocha">
 <meta property="article:tag" content="博客,技术,编程,学习,分享">
 <meta name="twitter:card" content="summary">
@@ -144,212 +144,452 @@
   isHighlightShrink: false,
   isToc: false,
   pageType: 'page'
-}</script><meta name="generator" content="Hexo 8.1.1"><link rel="stylesheet" href="/css/prism.css" type="text/css"></head><body><div class="page type-downloads" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">我的技术博客</span></a></span><div id="menus"></div></nav><div id="page-site-info"><h1 id="site-title">资源下载</h1></div></header><main class="layout" id="content-inner"><div id="page"><div class="container" id="article-container"><div class="download-container">
-  <div class="download-section">
-    <h2>📚 文档资料</h2>
-    <p>各类技术文档和使用手册，帮助您快速了解和使用相关产品。</p>
-    
-<pre><code>&lt;div class=&quot;download-item&quot;&gt;
-  &lt;a href=&quot;/downloads/user-manual.pdf&quot; class=&quot;download-link&quot;&gt;
-    &lt;span class=&quot;download-icon&quot;&gt;📄&lt;/span&gt;
-    &lt;div class=&quot;download-info&quot;&gt;
-      &lt;h3&gt;用户使用手册&lt;/h3&gt;
-      &lt;p class=&quot;download-meta&quot;&gt;PDF • 约2.5MB • 更新于2023-06-20&lt;/p&gt;
-      &lt;p class=&quot;download-desc&quot;&gt;完整的用户操作指南，包含所有功能的详细说明和使用示例。&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;download-item&quot;&gt;
-  &lt;a href=&quot;/downloads/api-reference.pdf&quot; class=&quot;download-link&quot;&gt;
-    &lt;span class=&quot;download-icon&quot;&gt;📘&lt;/span&gt;
-    &lt;div class=&quot;download-info&quot;&gt;
-      &lt;h3&gt;API参考文档&lt;/h3&gt;
-      &lt;p class=&quot;download-meta&quot;&gt;PDF • 约3.8MB • 更新于2023-06-25&lt;/p&gt;
-      &lt;p class=&quot;download-desc&quot;&gt;开发者API详细文档，包含接口说明、参数详解和调用示例。&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
-</code></pre>
+}</script><meta name="generator" content="Hexo 8.1.1"><link rel="stylesheet" href="/css/prism.css" type="text/css"></head><body><div class="page type-downloads" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">博客</span></a></span><div id="menus"></div></nav><div id="page-site-info"><h1 id="site-title">资源下载</h1></div></header><main class="layout" id="content-inner"><div id="page"><div class="container" id="article-container"><div class="download-container">
+  <!-- 文件搜索和筛选 -->
+  <div class="file-controls">
+    <input type="text" id="fileSearch" placeholder="搜索文件..." class="search-input">
+    <div class="file-categories">
+      <button class="category-btn active" data-category="all">全部文件</button>
+      <button class="category-btn" data-category="pdf">PDF文档</button>
+      <button class="category-btn" data-category="doc">Word文档</button>
+      <button class="category-btn" data-category="image">图片</button>
+      <button class="category-btn" data-category="archive">压缩包</button>
+    </div>
   </div>
 
-  <div class="download-section">
-    <h2>💾 软件工具</h2>
-    <p>实用软件和工具下载，提高您的工作效率。</p>
-    
-<pre><code>&lt;div class=&quot;download-item&quot;&gt;
-  &lt;a href=&quot;/downloads/toolkit-windows.zip&quot; class=&quot;download-link&quot;&gt;
-    &lt;span class=&quot;download-icon&quot;&gt;💻&lt;/span&gt;
-    &lt;div class=&quot;download-info&quot;&gt;
-      &lt;h3&gt;工具包 (Windows版)&lt;/h3&gt;
-      &lt;p class=&quot;download-meta&quot;&gt;ZIP • 约15.2MB • 版本2.1.0&lt;/p&gt;
-      &lt;p class=&quot;download-desc&quot;&gt;包含全套Windows平台实用工具，解压即用，无需安装。&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;download-item&quot;&gt;
-  &lt;a href=&quot;/downloads/toolkit-mac.dmg&quot; class=&quot;download-link&quot;&gt;
-    &lt;span class=&quot;download-icon&quot;&gt;🍎&lt;/span&gt;
-    &lt;div class=&quot;download-info&quot;&gt;
-      &lt;h3&gt;工具包 (Mac版)&lt;/h3&gt;
-      &lt;p class=&quot;download-meta&quot;&gt;DMG • 约14.7MB • 版本2.1.0&lt;/p&gt;
-      &lt;p class=&quot;download-desc&quot;&gt;专为macOS优化的工具套装，支持Apple Silicon芯片。&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
-</code></pre>
+  <!-- 文件列表 -->
+  <div id="fileListContainer" class="file-list-container">
+    <div class="loading">加载文件列表中...</div>
   </div>
 
-  <div class="download-section">
-    <h2>💻 示例代码</h2>
-    <p>各类编程示例和代码片段，帮助开发者快速入门。</p>
-    
-<pre><code>&lt;div class=&quot;download-item&quot;&gt;
-  &lt;a href=&quot;/downloads/web-examples.zip&quot; class=&quot;download-link&quot;&gt;
-    &lt;span class=&quot;download-icon&quot;&gt;🌐&lt;/span&gt;
-    &lt;div class=&quot;download-info&quot;&gt;
-      &lt;h3&gt;Web开发示例&lt;/h3&gt;
-      &lt;p class=&quot;download-meta&quot;&gt;ZIP • 约5.3MB • 更新于2023-07-01&lt;/p&gt;
-      &lt;p class=&quot;download-desc&quot;&gt;包含HTML、CSS、JavaScript前端开发示例，涵盖常见交互效果实现。&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;download-item&quot;&gt;
-  &lt;a href=&quot;/downloads/python-scripts.zip&quot; class=&quot;download-link&quot;&gt;
-    &lt;span class=&quot;download-icon&quot;&gt;🐍&lt;/span&gt;
-    &lt;div class=&quot;download-info&quot;&gt;
-      &lt;h3&gt;Python脚本集合&lt;/h3&gt;
-      &lt;p class=&quot;download-meta&quot;&gt;ZIP • 约3.1MB • 更新于2023-07-10&lt;/p&gt;
-      &lt;p class=&quot;download-desc&quot;&gt;常用Python脚本集合，包括数据处理、自动化任务和API调用示例。&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
-</code></pre>
+  <!-- 文件预览区域 -->
+  <div id="filePreview" class="file-preview-container">
+    <div class="preview-header">
+      <h3 id="previewTitle">文件预览</h3>
+      <button id="closePreview" class="close-btn">×</button>
+    </div>
+    <div id="previewContent" class="preview-content">
+      <p>选择一个文件查看预览</p>
+    </div>
+    <div class="preview-footer">
+      <button id="downloadBtn" class="download-btn">下载文件</button>
+    </div>
   </div>
 </div>
 
 <div class="download-notice">
-  <p>ⓘ <strong>下载说明：</strong>所有资源均免费提供，下载前请确保您了解相关使用条款。如遇下载问题，请联系<a href="/contact">技术支持</a>。</p>
-  <p>ⓘ <strong>文件安全：</strong>我们定期扫描文件安全性，所有下载文件均不含恶意代码。建议使用最新版杀毒软件进行二次检查。</p>
+  <p>ⓘ <strong>提示：</strong>点击文件名可查看预览（支持PDF、图片和部分文档），点击下载按钮可直接下载文件。</p>
+  <p>ⓘ <strong>文件更新：</strong>文件列表最后更新于 <span id="lastUpdatedTime">加载中...</span></p>
 </div>
 
 <style>
 .download-container {
-  margin: 20px auto;
-  max-width: 900px;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.download-section {
-  margin-bottom: 30px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-
-.download-section:last-child {
-  border-bottom: none;
-}
-
-.download-item {
-  background: #f9f9f9;
-  border-radius: 8px;
-  margin: 15px 0;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.download-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.download-link {
+.file-controls {
+  margin-bottom: 20px;
   display: flex;
-  padding: 15px;
-  color: #333;
-  text-decoration: none;
-  width: 100%;
-  height: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
   align-items: center;
 }
 
-.download-icon {
-  font-size: 28px;
-  margin-right: 15px;
-  min-width: 36px;
+.search-input {
+  flex: 1;
+  min-width: 200px;
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.file-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.category-btn {
+  padding: 6px 12px;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.category-btn.active, .category-btn:hover {
+  background: #3498db;
+  color: white;
+  border-color: #3498db;
+}
+
+.file-list-container {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+.file-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.file-table th, .file-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.file-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.file-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.file-name {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.file-icon {
+  margin-right: 10px;
+  font-size: 18px;
+  width: 24px;
   text-align: center;
 }
 
-.download-info {
+.file-type-pdf { color: #e74c3c; }
+.file-type-doc { color: #2980b9; }
+.file-type-xls { color: #27ae60; }
+.file-type-ppt { color: #d35400; }
+.file-type-image { color: #8e44ad; }
+.file-type-archive { color: #7f8c8d; }
+.file-type-other { color: #34495e; }
+
+.download-btn {
+  padding: 8px 15px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.download-btn:hover {
+  background: #2980b9;
+}
+
+.no-files {
+  padding: 30px;
+  text-align: center;
+  color: #7f8c8d;
+}
+
+.loading {
+  padding: 30px;
+  text-align: center;
+  color: #3498db;
+}
+
+/* 文件预览样式 */
+.file-preview-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview-content {
+  background: white;
+  width: 90%;
+  max-width: 900px;
+  max-height: 80vh;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-header {
+  padding: 15px 20px;
+  background: #2c3e50;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.preview-content-area {
   flex: 1;
+  padding: 20px;
+  overflow: auto;
 }
 
-.download-info h3 {
-  margin: 0 0 5px 0;
-  color: #2c3e50;
-  font-size: 1.1em;
+.preview-footer {
+  padding: 15px 20px;
+  background: #f8f9fa;
+  text-align: right;
+  border-top: 1px solid #eee;
 }
 
-.download-meta {
-  margin: 0 0 8px 0;
-  color: #7f8c8d;
-  font-size: 0.9em;
+.pdf-preview {
+  width: 100%;
+  height: 600px;
+  border: none;
 }
 
-.download-desc {
-  margin: 0;
-  color: #7f8c8d;
-  font-size: 0.95em;
-  line-height: 1.5;
+.image-preview {
+  max-width: 100%;
+  max-height: 600px;
+  display: block;
+  margin: 0 auto;
 }
 
-.download-notice {
-  background: #f0f7ff;
-  border-left: 4px solid #3498db;
-  padding: 15px;
-  margin: 30px 0;
-  border-radius: 0 4px 4px 0;
-}
-
-.download-notice p {
-  margin: 8px 0;
-  font-size: 0.95em;
-}
-
-.download-notice strong {
-  color: #2980b9;
+.doc-preview {
+  width: 100%;
+  height: 600px;
+  border: 1px solid #ddd;
 }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // 添加下载点击统计
-  const downloadLinks = document.querySelectorAll('.download-link');
-  downloadLinks.forEach(link => {
-    link.addEventListener('click', function(e) {
-      const fileName = this.getAttribute('href').split('/').pop();
-      console.log('下载文件: ' + fileName);
+  let allFiles = [];
+  let currentPreviewFile = null;
+  
+  // 加载文件列表
+  fetch('/downloads/filelist.json?t=' + Date.now())
+    .then(response => response.json())
+    .then(data => {
+      allFiles = flattenFileList(data.categories);
+      document.getElementById('lastUpdatedTime').textContent = data.lastUpdated;
+      renderFileList(allFiles);
+    })
+    .catch(error => {
+      console.error('加载文件列表失败:', error);
+      document.getElementById('fileListContainer').innerHTML = '<div class="no-files">加载文件列表失败，请稍后再试。</div>';
+    });
+
+  // 将分类文件转换为扁平列表
+  function flattenFileList(categories) {
+    let files = [];
+    for (const category in categories) {
+      categories[category].forEach(file => {
+        file.category = category;
+        files.push(file);
+      });
+    }
+    return files;
+  }
+
+  // 渲染文件列表
+  function renderFileList(files) {
+    if (files.length === 0) {
+      document.getElementById('fileListContainer').innerHTML = '<div class="no-files">没有找到文件</div>';
+      return;
+    }
+    
+    let html = `
+      <table class="file-table">
+        <thead>
+          <tr>
+            <th>文件名</th>
+            <th>类型</th>
+            <th>大小</th>
+            <th>更新日期</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+    `;
+    
+    files.forEach(file => {
+      const icon = getFileIcon(file);
+      html += `
+        <tr>
+          <td class="file-name" data-file='${JSON.stringify(file)}'>
+            <span class="file-icon file-type-${file.category}">${icon}</span>
+            ${file.name}
+          </td>
+          <td>${file.ext}</td>
+          <td>${file.size}</td>
+          <td>${file.date}</td>
+          <td>
+            <button class="download-btn" onclick="downloadFile('${file.path}')">下载</button>
+          </td>
+        </tr>
+      `;
+    });
+    
+    html += `
+        </tbody>
+      </table>
+    `;
+    
+    document.getElementById('fileListContainer').innerHTML = html;
+    
+    // 添加文件点击事件
+    document.querySelectorAll('.file-name').forEach(element => {
+      element.addEventListener('click', function() {
+        const file = JSON.parse(this.getAttribute('data-file'));
+        showFilePreview(file);
+      });
+    });
+  }
+  
+  // 获取文件图标
+  function getFileIcon(file) {
+    const icons = {
+      pdf: '📄',
+      doc: '📝',
+      xls: '📊',
+      ppt: '📽️',
+      image: '🖼️',
+      archive: '📦',
+      other: '📎'
+    };
+    return icons[file.category] || icons.other;
+  }
+  
+  // 显示文件预览
+  function showFilePreview(file) {
+    currentPreviewFile = file;
+    const previewContent = document.getElementById('previewContent');
+    const previewTitle = document.getElementById('previewTitle');
+    
+    previewTitle.textContent = `预览: ${file.name}`;
+    document.getElementById('filePreview').style.display = 'flex';
+    
+	// 替换原有的showFilePreview函数中的PDF预览部分
+	if (file.category === 'pdf') {
+	  // 在新窗口中打开PDF查看器
+	  const viewerUrl = `/lib/pdf-viewer.html?file=${encodeURIComponent(file.path)}`;
+	  window.open(viewerUrl, '_blank', 'width=1200,height=800,left=100,top=50');
+	  
+	  // 关闭预览窗口（如果在预览模式）
+	  if (document.getElementById('filePreview').style.display === 'flex') {
+		document.getElementById('filePreview').style.display = 'none';
+	  }
+	}
+    else if (file.category === 'image') {
+      previewContent.innerHTML = `
+        <div class="preview-content-area">
+          <img class="image-preview" src="${file.path}" alt="${file.name}" onload="this.style.opacity='1'">
+        </div>
+      `;
+    } 
+    else if (['doc', 'xls', 'ppt'].includes(file.category)) {
+      // 使用Google Docs Viewer预览Office文档
+      const googleViewerUrl = `https://docs.google.com/gview?url=${encodeURIComponent(window.location.origin + file.path)}&embedded=true`;
+      previewContent.innerHTML = `
+        <div class="preview-content-area">
+          <iframe class="doc-preview" src="${googleViewerUrl}"></iframe>
+        </div>
+      `;
+    } 
+    else {
+      previewContent.innerHTML = `
+        <div class="preview-content-area">
+          <p>该文件类型不支持在线预览。</p>
+          <p>文件类型: ${file.ext}</p>
+          <p>文件大小: ${file.size}</p>
+          <button class="download-btn" onclick="downloadFile('${file.path}')">下载文件</button>
+        </div>
+      `;
+    }
+  }
+  
+  // 关闭预览
+  document.getElementById('closePreview').addEventListener('click', function() {
+    document.getElementById('filePreview').style.display = 'none';
+    currentPreviewFile = null;
+  });
+  
+  // 点击遮罩关闭
+  document.getElementById('filePreview').addEventListener('click', function(e) {
+    if (e.target === this) {
+      this.style.display = 'none';
+      currentPreviewFile = null;
+    }
+  });
+  
+  // 下载文件
+  window.downloadFile = function(path) {
+    const link = document.createElement('a');
+    link.href = path;
+    link.download = path.split('/').pop();
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    // 预览模式下关闭预览
+    if (document.getElementById('filePreview').style.display === 'flex') {
+      document.getElementById('filePreview').style.display = 'none';
+    }
+  };
+  
+  // 搜索文件
+  document.getElementById('fileSearch').addEventListener('input', function(e) {
+    const searchTerm = e.target.value.toLowerCase();
+    const filteredFiles = allFiles.filter(file => 
+      file.name.toLowerCase().includes(searchTerm)
+    );
+    renderFileList(filteredFiles);
+  });
+  
+  // 按类别筛选
+  document.querySelectorAll('.category-btn').forEach(button => {
+    button.addEventListener('click', function() {
+      // 更新按钮状态
+      document.querySelectorAll('.category-btn').forEach(btn => btn.classList.remove('active'));
+      this.classList.add('active');
       
-      // 可以在这里添加下载统计代码
-      // 例如：ga('send', 'event', '下载', '点击', fileName);
+      const category = this.getAttribute('data-category');
+      if (category === 'all') {
+        renderFileList(allFiles);
+      } else {
+        const filteredFiles = allFiles.filter(file => file.category === category);
+        renderFileList(filteredFiles);
+      }
     });
   });
   
-  // 检测文件大小（示例，实际需要后端支持）
-  downloadLinks.forEach(link => {
-    const href = link.getAttribute('href');
-    if (href && (href.endsWith('.pdf') || href.endsWith('.zip') || href.endsWith('.dmg'))) {
-      // 实际应用中，这里可以调用API获取真实文件大小
-      // 此处仅为演示
-      const sizeElement = link.querySelector('.download-meta');
-      if (sizeElement && !sizeElement.textContent.includes('MB')) {
-        const randomSize = (Math.random() * 10 + 1).toFixed(1);
-        sizeElement.innerHTML = sizeElement.innerHTML.replace(/• 更新于\d{4}-\d{2}-\d{2}/, `• 约${randomSize}MB • 更新于2023-06-20`);
-      }
+  // 处理ESC键关闭预览
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && document.getElementById('filePreview').style.display === 'flex') {
+      document.getElementById('filePreview').style.display = 'none';
     }
   });
 });
-</script></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Jiaocha</div><div class="author-info-description">一个专注于技术分享与学习的个人博客</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/02/docs/guide/" title="开发指南">开发指南</a><time datetime="2025-12-02T11:40:56.000Z" title="发表于 2025年12月02日 19:40:56">2025年12月02日</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/02/docs/api/" title="API文档">API文档</a><time datetime="2025-12-02T11:40:48.000Z" title="发表于 2025年12月02日 19:40:48">2025年12月02日</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/02/docs/manual/" title="用户手册">用户手册</a><time datetime="2025-12-02T11:40:39.000Z" title="发表于 2025年12月02日 19:40:39">2025年12月02日</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/02/hello-world/" title="Hello World">Hello World</a><time datetime="2025-12-02T11:23:08.519Z" title="发表于 2025年12月02日 19:23:08">2025年12月02日</time></div></div></div></div><div class="card-widget card-archives">
+</script></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Jiaocha</div><div class="author-info-description">一个专注于技术分享与学习的博客</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/02/docs/guide/" title="开发指南">开发指南</a><time datetime="2025-12-02T11:40:56.000Z" title="发表于 2025年12月02日 19:40:56">2025年12月02日</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/02/docs/api/" title="API文档">API文档</a><time datetime="2025-12-02T11:40:48.000Z" title="发表于 2025年12月02日 19:40:48">2025年12月02日</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/02/docs/manual/" title="用户手册">用户手册</a><time datetime="2025-12-02T11:40:39.000Z" title="发表于 2025年12月02日 19:40:39">2025年12月02日</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/02/hello-world/" title="Hello World">Hello World</a><time datetime="2025-12-02T11:23:08.519Z" title="发表于 2025年12月02日 19:23:08">2025年12月02日</time></div></div></div></div><div class="card-widget card-archives">
     <div class="item-headline">
       <i class="fas fa-archive"></i>
       <span>归档</span>
@@ -368,4 +608,4 @@ document.addEventListener('DOMContentLoaded', function() {
         </li>
       
     </ul>
-  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">4</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-12-02T11:54:49.940Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By Jiaocha</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.2"></script><script src="/js/main.js?v=5.5.2"></script><div class="js-pjax"></div><script async data-pjax src="/"></script></div></body></html>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">4</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-12-02T13:31:27.119Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By Jiaocha</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.2"></script><script src="/js/main.js?v=5.5.2"></script><div class="js-pjax"></div><script async data-pjax src="/"></script></div></body></html>

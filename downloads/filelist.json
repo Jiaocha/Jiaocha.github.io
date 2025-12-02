@@ -1,0 +1,120 @@
+{
+  "lastUpdated": "2025-12-02 21:31:27",
+  "categories": {
+    "pdf": [
+      {
+        "name": "user-manual.pdf",
+        "path": "/downloads/user-manual.pdf",
+        "decodedPath": "/downloads/user-manual.pdf",
+        "size": "0 B",
+        "date": "2025-12-02",
+        "type": "pdf",
+        "ext": "PDF",
+        "icon": "📄"
+      }
+    ],
+    "doc": [],
+    "xls": [],
+    "ppt": [],
+    "image": [
+      {
+        "name": "灵石.png",
+        "path": "/downloads/%E7%81%B5%E7%9F%B3.png",
+        "decodedPath": "/downloads/灵石.png",
+        "size": "12.0 KB",
+        "date": "2025-08-12",
+        "type": "image",
+        "ext": "PNG",
+        "icon": "🖼️"
+      }
+    ],
+    "archive": [
+      {
+        "name": "cns_AMD.tar.gz",
+        "path": "/downloads/cns_AMD.tar.gz",
+        "decodedPath": "/downloads/cns_AMD.tar.gz",
+        "size": "1.6 MB",
+        "date": "2025-11-29",
+        "type": "archive",
+        "ext": "GZ",
+        "icon": "📦"
+      }
+    ],
+    "text": [
+      {
+        "name": "index.md",
+        "path": "/downloads/index.md",
+        "decodedPath": "/downloads/index.md",
+        "size": "11.2 KB",
+        "date": "2025-12-02",
+        "type": "text",
+        "ext": "MD",
+        "icon": "📄"
+      },
+      {
+        "name": "道诡异仙 (狐尾的笔) (Z-Library).txt",
+        "path": "/downloads/%E9%81%93%E8%AF%A1%E5%BC%82%E4%BB%99%20(%E7%8B%90%E5%B0%BE%E7%9A%84%E7%AC%94)%20(Z-Library).txt",
+        "decodedPath": "/downloads/道诡异仙 (狐尾的笔) (Z-Library).txt",
+        "size": "6.4 MB",
+        "date": "2025-11-25",
+        "type": "text",
+        "ext": "TXT",
+        "icon": "📄"
+      }
+    ],
+    "video": [],
+    "other": []
+  },
+  "allFiles": [
+    {
+      "name": "cns_AMD.tar.gz",
+      "path": "/downloads/cns_AMD.tar.gz",
+      "decodedPath": "/downloads/cns_AMD.tar.gz",
+      "size": "1.6 MB",
+      "date": "2025-11-29",
+      "type": "archive",
+      "ext": "GZ",
+      "icon": "📦"
+    },
+    {
+      "name": "index.md",
+      "path": "/downloads/index.md",
+      "decodedPath": "/downloads/index.md",
+      "size": "11.2 KB",
+      "date": "2025-12-02",
+      "type": "text",
+      "ext": "MD",
+      "icon": "📄"
+    },
+    {
+      "name": "user-manual.pdf",
+      "path": "/downloads/user-manual.pdf",
+      "decodedPath": "/downloads/user-manual.pdf",
+      "size": "0 B",
+      "date": "2025-12-02",
+      "type": "pdf",
+      "ext": "PDF",
+      "icon": "📄"
+    },
+    {
+      "name": "灵石.png",
+      "path": "/downloads/%E7%81%B5%E7%9F%B3.png",
+      "decodedPath": "/downloads/灵石.png",
+      "size": "12.0 KB",
+      "date": "2025-08-12",
+      "type": "image",
+      "ext": "PNG",
+      "icon": "🖼️"
+    },
+    {
+      "name": "道诡异仙 (狐尾的笔) (Z-Library).txt",
+      "path": "/downloads/%E9%81%93%E8%AF%A1%E5%BC%82%E4%BB%99%20(%E7%8B%90%E5%B0%BE%E7%9A%84%E7%AC%94)%20(Z-Library).txt",
+      "decodedPath": "/downloads/道诡异仙 (狐尾的笔) (Z-Library).txt",
+      "size": "6.4 MB",
+      "date": "2025-11-25",
+      "type": "text",
+      "ext": "TXT",
+      "icon": "📄"
+    }
+  ]
+}
